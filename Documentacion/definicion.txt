@@ -1,0 +1,31 @@
+com.example.myapp
+    ├── Application.java
+    ├── config
+    │   ├── AppConfig.java
+    │   └── SecurityConfig.java
+    ├── controller
+    │   ├── UserController.java
+    │   └── ProductController.java
+    ├── model
+    │   ├── User.java
+    │   └── Product.java
+    ├── repository
+    │   ├── UserRepository.java
+    │   └── ProductRepository.java
+    ├── service
+    │   ├── UserService.java
+    │   └── ProductService.java
+    └── utils
+        ├── Constants.java
+        └── Utils.java
+		
+
+
+1. com.example.myapp: Este es el paquete base de tu aplicación. Sustituye "example" y "myapp" por el nombre de dominio y el nombre de tu aplicación, respectivamente.
+2. Application.java: Esta es la clase principal que contiene el método main y la anotación @SpringBootApplication. Spring Boot inicia la aplicación a partir de esta clase.
+3. config: Este paquete contiene las clases de configuración, como configuración de seguridad, base de datos y beans de Spring.
+4. controller: Este paquete contiene las clases de controlador que manejan las solicitudes HTTP y devuelven respuestas.
+5. model: Este paquete contiene las clases de entidad o modelo de dominio que representan las estructuras de datos de tu aplicación.
+6. repository: Este paquete contiene las interfaces del repositorio que interactúan con la base de datos utilizando Spring Data JPA u otras soluciones de persistencia.
+7. service: Este paquete contiene las clases de servicio que contienen la lógica de negocio y se comunican entre los controladores y los repositorios.
+8. utils: Este paquete contiene clases de utilidad, como constantes y métodos de utilidad comunes.

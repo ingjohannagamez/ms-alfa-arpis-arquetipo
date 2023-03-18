@@ -1,0 +1,26 @@
+Lombok plugin
+ A plugin that adds first-class support for Project Lombok Features
+@Getter and @Setter
+@FieldNameConstants
+@ToString
+@EqualsAndHashCode
+@AllArgsConstructor, @RequiredArgsConstructor and @NoArgsConstructor
+@Log, @Log4j, @Log4j2, @Slf4j, @XSlf4j, @CommonsLog, @JBossLog, @Flogger, @CustomLog
+@Data
+@Builder
+@SuperBuilder
+@Singular
+@Delegate
+@Value
+@Accessors
+@Wither
+@With
+@SneakyThrows
+@StandardException
+@val
+@var
+experimental @var
+@UtilityClass
+Lombok config system
+Code inspections
+Refactoring actions (lombok and delombok)
