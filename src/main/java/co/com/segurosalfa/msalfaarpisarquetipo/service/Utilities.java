@@ -35,8 +35,7 @@ public class Utilities {
                               .append(GeneralConstants.SPACE)
                               .append(ef.getDefaultMessage());
             });
-            throw new ComponentException("", CodeTypeError.ERROR_PARAMETROS_INCORRECTOS, errorMessages.toString(), "",
-                    locacion);
+            throw new ComponentException("", CodeTypeError.ERROR_PARAMETROS_INCORRECTOS, errorMessages.toString(), "", locacion);
         }
     }
 

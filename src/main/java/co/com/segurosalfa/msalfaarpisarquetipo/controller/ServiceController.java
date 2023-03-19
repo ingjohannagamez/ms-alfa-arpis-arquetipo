@@ -16,38 +16,27 @@ import co.com.segurosalfa.msalfaarpisarquetipo.utils.ComponentException;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.GeneralConstants;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.LogService;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("${controller.properties.base-path}")
 @Tag(name = "Controller", description = "Controller encargado de XXXXXXXXXXXXXXXXX")
 public class ServiceController {
  
-    private final ErrorService adapterError;
-    private final SmartValidator smartValidator;
-    private final LogService servicioLog;
-
-	public ServiceController(ErrorService adapterError, SmartValidator smartValidator, LogService servicioLog) {
-        this.adapterError = adapterError;
-        this.smartValidator = smartValidator;
-        this.servicioLog = servicioLog;
-    }
+    private ErrorService adapterError = new ErrorService();
+    private SmartValidator smartValidator;
+    private LogService servicioLog;
 
 	@CrossOrigin(origins = "*")
     @GetMapping("/personas")
-	@Tag(name = "Ejemplo", description = "Este es un ejemplo de endpoint")
 	public ResponseEntity<?> personasFindAll() throws ComponentException {
 
 		Map<String, String> headerReq = new HashMap<>();
-			headerReq.put("X-TransactionId", "9999");
-			headerReq.put("X-FromAppId", "jimmy-postman");
-			headerReq.put("Accept", "Application/json");
-			headerReq.put("Content-Type", "application/merge-patch+json");
-			headerReq.put("Authorization", "Basic QUFJOkFBSQ==");
 			
-		return new BasicOperation<Object, Object>(headerReq, new Object(), new Object()) {
+		return new BasicOperation<String, String>(headerReq, "", null) {
 			@Override
-            public ResponseEntity<?> process(Map<String, String> headers, Object request) throws ComponentException {
-				return ResponseEntity.ok("todo bien");
+            public String process(Map<String, String> headers, String request) throws ComponentException {
+				return "todo bien";
 			}
 		}.errors(adapterError).initializer(smartValidator, servicioLog).setCommonInfo(this.getClass().getSimpleName(), GeneralConstants.GET_OPERATION).run();
 	}
