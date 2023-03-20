@@ -5,7 +5,7 @@ Requisitos
 Java 17
 Maven
 
-Dependencias
+Dependencias:
 Spring Boot Starter Validation
 Spring Boot Starter Web
 Spring Boot DevTools
