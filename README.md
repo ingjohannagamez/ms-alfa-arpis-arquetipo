@@ -4,6 +4,7 @@ Arquetipo Oficial de Creación de Microservicios con Spring Boot.
 Requisitos
 Java 17
 Maven
+
 Dependencias
 Spring Boot Starter Validation
 Spring Boot Starter Web
