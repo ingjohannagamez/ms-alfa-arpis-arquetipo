@@ -1,51 +1,52 @@
 # ms-alfa-arpis-arquetipo
-Arquetipo Oficial de Creación de Microservicios con Spring Boot.
 
-Requisitos
-Java 17
-Maven
+# Official Spring Boot Microservices Archetype.
 
-Dependencias:
-Spring Boot Starter Validation
-Spring Boot Starter Web
-Spring Boot DevTools
-PostgreSQL JDBC Driver
-Project Lombok
-Spring Boot Starter Test
-SpringDoc OpenAPI WebMVC UI
-JUnit 5 (JUnit Jupiter API)
-Mockito
-AWS SDK for Java 2.x (CloudWatch)
-Jakarta XML Binding API
-Google Gson
+# Requirements
 
-Configuración
-Para compilar y ejecutar el proyecto, siga los siguientes pasos:
+# - Java 17
+# - Maven
 
-Clone el repositorio:
+# Dependencies
 
+# - Spring Boot Starter Validation
+# - Spring Boot Starter Web
+# - Spring Boot DevTools
+# - PostgreSQL JDBC Driver
+# - Project Lombok
+# - Spring Boot Starter Test
+# - SpringDoc OpenAPI WebMVC UI
+# - JUnit 5 (JUnit Jupiter API)
+# - Mockito
+# - AWS SDK for Java 2.x (CloudWatch)
+# - Jakarta XML Binding API
+# - Google Gson
+
+# Configuration
+
+# To build and run the project, follow these steps:
+
+# 1. Clone the repository:
 git clone https://github.com/your-repository-url/ms-alfa-arpis-arquetipo.git
 
-Cambie al directorio del proyecto:
-
+# 2. Change to the project directory:
 cd ms-alfa-arpis-arquetipo
 
-Compile el proyecto utilizando Maven:
-
+# 3. Build the project using Maven:
 mvn clean install
 
-Ejecute el proyecto con Spring Boot:
-
+# 4. Run the project with Spring Boot:
 mvn spring-boot:run
 
-El servidor se iniciará en http://localhost:8080.
+# The server will start at http://localhost:8080.
 
-Documentación de la API
-La documentación de la API se genera automáticamente utilizando SpringDoc OpenAPI. Puede acceder a la interfaz de usuario de Swagger en http://localhost:8080/swagger-ui.html después de ejecutar el proyecto.
+# API Documentation
 
-Pruebas
-Para ejecutar las pruebas del proyecto, utilice el siguiente comando:
+# API documentation is automatically generated using SpringDoc OpenAPI. You can access the Swagger UI at http://localhost:8080/swagger-ui.html after running the project.
 
+# Testing
+
+# To run the project's tests, use the following command:
 mvn test
 
-Las pruebas utilizan JUnit 5 y Mockito para proporcionar una amplia cobertura de las funcionalidades del proyecto.
+# Tests use JUnit 5 and Mockito to provide comprehensive coverage of the project's functionality.
