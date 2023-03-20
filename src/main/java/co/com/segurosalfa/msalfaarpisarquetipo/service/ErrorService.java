@@ -5,7 +5,7 @@ import java.io.StringWriter;
 
 import org.springframework.stereotype.Component;
 
-import co.com.segurosalfa.msalfaarpisarquetipo.model.ErrorDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ErrorDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.ComponentException;
 
 @Component

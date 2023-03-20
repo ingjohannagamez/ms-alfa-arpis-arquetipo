@@ -9,9 +9,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.SmartValidator;
 
-import co.com.segurosalfa.msalfaarpisarquetipo.model.ErrorDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.ExecutionInfoRuntimeDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInTypeDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ErrorDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ExecutionInfoRuntimeDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.HeaderInTypeDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.service.ErrorService;
 import co.com.segurosalfa.msalfaarpisarquetipo.service.Utilities;
 

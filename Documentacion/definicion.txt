@@ -7,19 +7,29 @@ com.example.myapp
     │   ├── UserController.java
     │   └── ProductController.java
     ├── model
-    │   ├── User.java
-    │   └── Product.java
+    │   ├── entity
+    │   │   ├── User.java
+    │   │   └── Product.java
+    │   └── dto
+    │       ├── UserDTO.java
+    │       └── ProductDTO.java
     ├── repository
-    │   ├── UserRepository.java
-    │   └── ProductRepository.java
+    │   ├── interfaces
+    │   │   ├── UserRepository.java
+    │   │   └── ProductRepository.java
+    │   └── impl
+    │       ├── UserRepositoryImpl.java
+    │       └── ProductRepositoryImpl.java
     ├── service
-    │   ├── UserService.java
-    │   └── ProductService.java
+    │   ├── interfaces
+    │   │   ├── UserService.java
+    │   │   └── ProductService.java
+    │   └── impl
+    │       ├── UserServiceImpl.java
+    │       └── ProductServiceImpl.java
     └── utils
         ├── Constants.java
         └── Utils.java
-		
-
 
 1. com.example.myapp: Este es el paquete base de tu aplicación. Sustituye "example" y "myapp" por el nombre de dominio y el nombre de tu aplicación, respectivamente.
 2. Application.java: Esta es la clase principal que contiene el método main y la anotación @SpringBootApplication. Spring Boot inicia la aplicación a partir de esta clase.

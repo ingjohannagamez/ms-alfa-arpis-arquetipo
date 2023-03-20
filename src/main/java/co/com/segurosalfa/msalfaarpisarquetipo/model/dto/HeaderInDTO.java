@@ -1,4 +1,4 @@
-package co.com.segurosalfa.msalfaarpisarquetipo.model;
+package co.com.segurosalfa.msalfaarpisarquetipo.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonInclude;

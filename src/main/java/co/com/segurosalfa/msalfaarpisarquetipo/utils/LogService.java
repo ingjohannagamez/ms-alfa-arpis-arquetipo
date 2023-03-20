@@ -2,10 +2,10 @@ package co.com.segurosalfa.msalfaarpisarquetipo.utils;
 
 import java.util.Optional;
 
-import co.com.segurosalfa.msalfaarpisarquetipo.model.ErrorDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.ExecutionInfoRuntimeDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.ExecutionInfoToLoggingDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInTypeDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ErrorDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ExecutionInfoRuntimeDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ExecutionInfoToLoggingDTO;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.HeaderInTypeDTO;
 import software.amazon.awssdk.services.cloudwatch.CloudWatchClient;
 
 public class LogService {

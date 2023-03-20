@@ -1,4 +1,4 @@
-package co.com.segurosalfa.msalfaarpisarquetipo.model;
+package co.com.segurosalfa.msalfaarpisarquetipo.model.dto;
 
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
