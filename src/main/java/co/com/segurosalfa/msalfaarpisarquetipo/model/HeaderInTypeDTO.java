@@ -18,7 +18,7 @@ import lombok.Data;
 })
 @Data
 @XmlRootElement(name ="HeaderIn")
-public class HeaderInType {
+public class HeaderInTypeDTO {
     
     @XmlElement(required = true)
     protected String pais;

@@ -11,7 +11,7 @@ import org.springframework.validation.SmartValidator;
 
 import co.com.segurosalfa.msalfaarpisarquetipo.model.ErrorDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.model.ExecutionInfoRuntimeDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInType;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInTypeDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.service.ErrorService;
 import co.com.segurosalfa.msalfaarpisarquetipo.service.Utilities;
 
@@ -71,7 +71,7 @@ public abstract class BasicOperation<R, P> {
 
 		String locacion = Utilities.createErrorLocation(serviceClass, serviceMethod);
 
-		HeaderInType headerIn = null;
+		HeaderInTypeDTO headerIn = null;
 		try {
 
 			headerIn = Utilities.getHeaderIn(headers, serviceClass, serviceMethod);

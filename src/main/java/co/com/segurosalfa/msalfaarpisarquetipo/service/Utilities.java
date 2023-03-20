@@ -12,7 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 
 import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInType;
+import co.com.segurosalfa.msalfaarpisarquetipo.model.HeaderInTypeDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.CodeTypeError;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.ComponentException;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.GeneralConstants;
@@ -60,11 +60,11 @@ public class Utilities {
                 .toString();
     }
 
-    public static HeaderInType getHeaderIn(Map<String, String> headers, String serviceClass, String serviceMethod)
+    public static HeaderInTypeDTO getHeaderIn(Map<String, String> headers, String serviceClass, String serviceMethod)
             throws ComponentException {
         try {
             HeaderInDTO headerIn = mapToObject(headers, HeaderInDTO.class);
-            return objectToObject(headerIn, HeaderInType.class);
+            return objectToObject(headerIn, HeaderInTypeDTO.class);
         } catch (Exception ex) {
             throw new ComponentException("", CodeTypeError.ERROR_PARAMETROS_HI, ex.getCause().toString(),
                     ex.getMessage(), createErrorLocation(serviceClass, serviceMethod));

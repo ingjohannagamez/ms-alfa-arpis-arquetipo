@@ -3,7 +3,7 @@ package co.com.segurosalfa.msalfaarpisarquetipo.model;
 import lombok.Data;
 
 @Data
-public class ExecutionInfoToLogging {
+public class ExecutionInfoToLoggingDTO {
     
     protected String locacion;
     protected String idEjecucion;
@@ -11,11 +11,11 @@ public class ExecutionInfoToLogging {
     protected String codigoErrorRetornado;
     protected String descripcionErrorRetornado;
 
-    public ExecutionInfoToLogging() {
+    public ExecutionInfoToLoggingDTO() {
         super();
     }
 
-    public ExecutionInfoToLogging(String locacion, String idEjecucion) {
+    public ExecutionInfoToLoggingDTO(String locacion, String idEjecucion) {
         super();
         this.locacion = locacion;
         this.idEjecucion = idEjecucion;
