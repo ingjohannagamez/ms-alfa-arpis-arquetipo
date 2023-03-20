@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import co.com.segurosalfa.msalfaarpisarquetipo.service.ErrorService;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.BasicOperation;
-import co.com.segurosalfa.msalfaarpisarquetipo.utils.CodeTypeError;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.ComponentException;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.GeneralConstants;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.LogService;
