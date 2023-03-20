@@ -93,13 +93,19 @@ public abstract class BasicOperation<R, P> {
 		} catch (Exception e) {
 
 			// Se transforma a ComponentException
-			ComponentException exc = new ComponentException("",CodeTypeError.ERROR_INESPERADO, e.getMessage(),
-					Utilities.getExceptionMessage(e), locacion);
+			ComponentException exc;
 
+			if (e instanceof ComponentException) {
+				exc = (ComponentException) e;
+				exc.setLocation(locacion);
+			} else {
+				exc = new ComponentException("", CodeTypeError.ERROR_INESPERADO, e.getMessage(), Utilities.getExceptionMessage(e), locacion);
+			}
+		
 			// Se incluye excepción en el MessageFault a retornar
 			error = adapterError.errorHandlerRest(exc, locacion);
-
-			return new ResponseEntity<ErrorDTO>(error, HttpStatus.valueOf(Integer.parseInt("500")));
+		
+			return new ResponseEntity<ErrorDTO>(error, getStatusOrDefault(exc.getErrorCode()));
 
 		} finally {
 
@@ -134,5 +140,13 @@ public abstract class BasicOperation<R, P> {
 		this.adapterError = adapterError;
 		return this;
 	}
+
+	private static HttpStatus getStatusOrDefault(String statusCode) {
+        try {
+            return HttpStatus.valueOf(Integer.valueOf(statusCode));
+        } catch (IllegalArgumentException e) {
+            return HttpStatus.INTERNAL_SERVER_ERROR;
+        }
+    }
     
 }
