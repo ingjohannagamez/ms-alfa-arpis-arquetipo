@@ -3,8 +3,7 @@ package co.com.segurosalfa.msalfaarpisarquetipo.repository.impl;
 import java.util.Map;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Service;
-
+import org.springframework.stereotype.Repository;
 import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ServiceRequestDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ServiceResponseDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.repository.interfaces.FindServiceRepository;
@@ -12,7 +11,7 @@ import co.com.segurosalfa.msalfaarpisarquetipo.utils.BasicOperationAdapter;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.ComponentException;
 import co.com.segurosalfa.msalfaarpisarquetipo.utils.GeneralConstants;
 
-@Service
+@Repository
 public class FindServiceRepositoryImpl implements FindServiceRepository {
 
     @Override

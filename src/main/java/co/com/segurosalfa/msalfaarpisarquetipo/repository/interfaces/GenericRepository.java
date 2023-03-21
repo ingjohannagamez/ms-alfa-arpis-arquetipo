@@ -4,6 +4,8 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-public interface GenericRepository<T, ID> extends CrudRepository<T, ID>, PagingAndSortingRepository<T, ID>, JpaSpecificationExecutor<T> {
+import co.com.segurosalfa.msalfaarpisarquetipo.model.entity.Persona;
+
+public interface GenericRepository extends CrudRepository<Persona, Integer>, PagingAndSortingRepository<Persona, Integer>, JpaSpecificationExecutor<Persona> {
     
 }
