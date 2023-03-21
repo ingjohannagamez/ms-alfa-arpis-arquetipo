@@ -65,7 +65,7 @@ public class ServiceController {
 
         Map<String, String> headerReq = new HashMap<>();
             
-        return new BasicOperation<ServiceResponseDTO, ServiceRequestDTO>(headerReq, new ServiceResponseDTO(), new ServiceRequestDTO()) {
+        return new BasicOperation<ServiceResponseDTO, ServiceRequestDTO>(headerReq, new ServiceResponseDTO(), null) {
             @Override
             public ServiceResponseDTO process(Map<String, String> headers, ServiceRequestDTO request) throws ComponentException {
                 return service.personaFindById(headers, request);
