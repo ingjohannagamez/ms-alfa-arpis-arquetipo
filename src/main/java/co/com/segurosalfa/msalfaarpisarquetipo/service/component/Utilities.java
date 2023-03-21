@@ -1,4 +1,4 @@
-package co.com.segurosalfa.msalfaarpisarquetipo.service;
+package co.com.segurosalfa.msalfaarpisarquetipo.service.component;
 
 import java.util.Map;
 

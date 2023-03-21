@@ -12,8 +12,8 @@ import org.springframework.validation.SmartValidator;
 import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ErrorDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.ExecutionInfoRuntimeDTO;
 import co.com.segurosalfa.msalfaarpisarquetipo.model.dto.HeaderInTypeDTO;
-import co.com.segurosalfa.msalfaarpisarquetipo.service.ErrorService;
-import co.com.segurosalfa.msalfaarpisarquetipo.service.Utilities;
+import co.com.segurosalfa.msalfaarpisarquetipo.service.component.ErrorService;
+import co.com.segurosalfa.msalfaarpisarquetipo.service.component.Utilities;
 
 public abstract class BasicOperation<R, P> {
     

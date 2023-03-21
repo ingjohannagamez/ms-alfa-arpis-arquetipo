@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class ServiceRequestDTO {
+public class ServiceResponseDTO {
     
-    private String type;
-	private String value;
+    private String id;
+	private String name;
+	private String description;
 }
