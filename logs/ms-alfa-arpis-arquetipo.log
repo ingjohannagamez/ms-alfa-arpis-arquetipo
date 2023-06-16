@@ -1,0 +1,760 @@
+2023-06-16T08:30:36.191-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 21292 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:30:36.205-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:30:36.279-05:00  INFO 21292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T08:30:36.281-05:00  INFO 21292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T08:30:37.375-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:30:37.493-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:30:38.297-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:30:38.311-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:30:38.313-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:30:38.422-05:00  INFO 21292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:30:38.424-05:00  INFO 21292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2140 ms
+2023-06-16T08:30:38.616-05:00  INFO 21292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:30:38.681-05:00  INFO 21292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T08:30:39.046-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T08:30:39.304-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@137f40f
+2023-06-16T08:30:39.307-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T08:30:39.379-05:00  INFO 21292 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:30:40.526-05:00  INFO 21292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:30:40.539-05:00  INFO 21292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:30:40.750-05:00  WARN 21292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:30:42.929-05:00  INFO 21292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:30:43.013-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:30:43.033-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.618 seconds (process running for 8.506)
+2023-06-16T08:37:15.119-05:00  INFO 21292 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T08:37:15.122-05:00  INFO 21292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T08:37:15.124-05:00  INFO 21292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-16T08:38:09.059-05:00  INFO 21292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T08:38:09.082-05:00  INFO 21292 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T08:38:09.083-05:00  INFO 21292 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-16T08:38:09.094-05:00  INFO 21292 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:38:09.101-05:00  INFO 21292 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T08:38:09.108-05:00  INFO 21292 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T08:38:09.467-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 21292 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:38:09.469-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:38:09.847-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:38:09.871-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:38:10.037-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:38:10.038-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:38:10.039-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:38:10.094-05:00  INFO 21292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:38:10.095-05:00  INFO 21292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2023-06-16T08:38:10.147-05:00  INFO 21292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:38:10.158-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-16T08:38:10.247-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@2ac05233
+2023-06-16T08:38:10.249-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-16T08:38:10.263-05:00  INFO 21292 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:38:10.325-05:00  INFO 21292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:38:10.326-05:00  INFO 21292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:38:10.437-05:00  WARN 21292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:38:12.198-05:00  INFO 21292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:38:12.267-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:38:12.282-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 3.094 seconds (process running for 457.756)
+2023-06-16T08:38:12.291-05:00  INFO 21292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T08:38:16.737-05:00  INFO 21292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T08:38:16.759-05:00  INFO 21292 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T08:38:16.766-05:00  INFO 21292 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:38:16.768-05:00  INFO 21292 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-06-16T08:38:16.772-05:00  INFO 21292 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-06-16T08:38:17.023-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 21292 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:38:17.024-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:38:17.408-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:38:17.431-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:38:17.556-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:38:17.557-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:38:17.558-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:38:17.606-05:00  INFO 21292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:38:17.607-05:00  INFO 21292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 576 ms
+2023-06-16T08:38:17.651-05:00  INFO 21292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:38:17.663-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-06-16T08:38:17.750-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@67055fa3
+2023-06-16T08:38:17.751-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-06-16T08:38:17.762-05:00  INFO 21292 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:38:17.820-05:00  INFO 21292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:38:17.821-05:00  INFO 21292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:38:17.895-05:00  WARN 21292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:38:18.973-05:00  INFO 21292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:38:18.992-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:38:19.005-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 2.178 seconds (process running for 464.479)
+2023-06-16T08:38:19.027-05:00  INFO 21292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T08:38:22.494-05:00  INFO 21292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T08:38:22.536-05:00  INFO 21292 --- [Thread-13] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T08:38:22.544-05:00  INFO 21292 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:38:22.547-05:00  INFO 21292 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-06-16T08:38:22.555-05:00  INFO 21292 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-06-16T08:38:22.850-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 21292 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:38:22.852-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:38:23.197-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:38:23.220-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:38:23.424-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:38:23.426-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:38:23.428-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:38:23.487-05:00  INFO 21292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:38:23.489-05:00  INFO 21292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2023-06-16T08:38:23.665-05:00  INFO 21292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:38:23.709-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-06-16T08:38:23.858-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@b7b850c
+2023-06-16T08:38:23.859-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-06-16T08:38:23.871-05:00  INFO 21292 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:38:23.943-05:00  INFO 21292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:38:23.944-05:00  INFO 21292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:38:24.031-05:00  WARN 21292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:38:24.961-05:00  INFO 21292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:38:24.974-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:38:24.979-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 2.335 seconds (process running for 470.453)
+2023-06-16T08:38:24.983-05:00  INFO 21292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T08:40:44.219-05:00  INFO 21292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T08:40:44.243-05:00  INFO 21292 --- [Thread-18] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T08:40:44.253-05:00  INFO 21292 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:40:44.254-05:00  INFO 21292 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-06-16T08:40:44.258-05:00  INFO 21292 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-06-16T08:40:44.478-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 21292 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:40:44.479-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:40:44.728-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:40:44.743-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:40:44.849-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:40:44.850-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:40:44.851-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:40:44.884-05:00  INFO 21292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:40:44.885-05:00  INFO 21292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 403 ms
+2023-06-16T08:40:44.918-05:00  INFO 21292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:40:44.925-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-06-16T08:40:44.989-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@676e94b5
+2023-06-16T08:40:44.989-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-06-16T08:40:44.998-05:00  INFO 21292 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:40:45.038-05:00  INFO 21292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:40:45.039-05:00  INFO 21292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:40:45.107-05:00  WARN 21292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:40:45.920-05:00  INFO 21292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:40:45.929-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:40:45.934-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 1.627 seconds (process running for 611.408)
+2023-06-16T08:40:45.936-05:00  INFO 21292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T08:40:48.403-05:00  INFO 21292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T08:40:48.423-05:00  INFO 21292 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T08:40:48.428-05:00  INFO 21292 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:40:48.429-05:00  INFO 21292 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-06-16T08:40:48.436-05:00  INFO 21292 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-06-16T08:40:48.673-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 21292 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:40:48.674-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:40:48.866-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:40:48.881-05:00  INFO 21292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:40:48.983-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:40:48.984-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:40:48.985-05:00  INFO 21292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:40:49.024-05:00  INFO 21292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:40:49.026-05:00  INFO 21292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2023-06-16T08:40:49.073-05:00  INFO 21292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:40:49.082-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-06-16T08:40:49.179-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@5e8f13f3
+2023-06-16T08:40:49.180-05:00  INFO 21292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-06-16T08:40:49.192-05:00  INFO 21292 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:40:49.243-05:00  INFO 21292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:40:49.244-05:00  INFO 21292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:40:49.308-05:00  WARN 21292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:40:50.083-05:00  INFO 21292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:40:50.109-05:00  INFO 21292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:40:50.114-05:00  INFO 21292 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 1.619 seconds (process running for 615.588)
+2023-06-16T08:40:50.117-05:00  INFO 21292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T08:42:49.999-05:00  INFO 9056 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 9056 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T08:42:50.006-05:00  INFO 9056 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T08:42:50.079-05:00  INFO 9056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T08:42:50.080-05:00  INFO 9056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T08:42:51.031-05:00  INFO 9056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T08:42:51.125-05:00  INFO 9056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-06-16T08:42:51.961-05:00  INFO 9056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T08:42:51.976-05:00  INFO 9056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T08:42:51.977-05:00  INFO 9056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T08:42:52.097-05:00  INFO 9056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T08:42:52.098-05:00  INFO 9056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2015 ms
+2023-06-16T08:42:52.345-05:00  INFO 9056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T08:42:52.422-05:00  INFO 9056 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T08:42:52.750-05:00  INFO 9056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T08:42:52.970-05:00  INFO 9056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a927b71
+2023-06-16T08:42:52.973-05:00  INFO 9056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T08:42:53.018-05:00  INFO 9056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T08:42:54.059-05:00  INFO 9056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T08:42:54.081-05:00  INFO 9056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T08:42:54.340-05:00  WARN 9056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T08:42:56.299-05:00  INFO 9056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T08:42:56.344-05:00  INFO 9056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T08:42:56.360-05:00  INFO 9056 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.099 seconds (process running for 7.753)
+2023-06-16T08:43:19.675-05:00  INFO 9056 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T08:43:19.676-05:00  INFO 9056 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T08:43:19.678-05:00  INFO 9056 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-16T09:15:53.103-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22496 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:15:53.107-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:15:53.179-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:15:53.180-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:15:54.141-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:15:54.236-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:15:55.270-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:15:55.300-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:15:55.301-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:15:55.460-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:15:55.462-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2279 ms
+2023-06-16T09:15:55.663-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:15:55.735-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:15:56.056-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:15:56.269-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6010056c
+2023-06-16T09:15:56.273-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:15:56.325-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:15:57.296-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:15:57.310-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:15:57.529-05:00  WARN [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:15:59.453-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T09:15:59.499-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T09:15:59.514-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.025 seconds (process running for 7.691)
+2023-06-16T09:16:24.607-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T09:16:24.611-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T09:16:24.613-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22496 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-16T09:26:28.562-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 9592 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:26:28.565-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:26:28.632-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:26:28.633-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:26:29.581-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:26:29.673-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:26:30.691-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:26:30.704-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:26:30.705-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:26:30.819-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:26:30.820-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2185 ms
+2023-06-16T09:26:31.034-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:26:31.111-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:26:31.487-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:26:31.698-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52dccd3d
+2023-06-16T09:26:31.701-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:26:31.749-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:26:32.957-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:26:32.973-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:26:33.028-05:00  WARN [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthConfig': Unsatisfied dependency expressed through field 'tracer': Error creating bean with name 'sleuthConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-06-16T09:26:33.036-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:26:33.063-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T09:26:33.079-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T09:26:33.087-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:26:33.111-05:00  INFO [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-16T09:26:33.166-05:00 ERROR [ms-alfa-arpis-arquetipo,,] 9592 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+???->???
+|  sleuthConfig (field private org.springframework.cloud.sleuth.Tracer co.com.segurosalfa.msalfaarpisarquetipo.config.SleuthConfig.tracer)
+???<-???
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2023-06-16T09:28:22.635-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22312 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:28:22.640-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:28:22.713-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:28:22.714-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:28:23.654-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:28:23.790-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:28:24.752-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:28:24.773-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:28:24.773-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:28:24.900-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:28:24.901-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2186 ms
+2023-06-16T09:28:25.115-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:28:25.183-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:28:25.528-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:28:25.767-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7decaaba
+2023-06-16T09:28:25.770-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:28:25.823-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:28:26.893-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:28:26.913-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:28:26.938-05:00  WARN [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthConfig': Unsatisfied dependency expressed through method 'setTracer' parameter 0: Error creating bean with name 'sleuthConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-06-16T09:28:26.943-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:28:26.952-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T09:28:27.081-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T09:28:27.087-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:28:27.110-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-16T09:28:27.152-05:00 ERROR [ms-alfa-arpis-arquetipo,,] 22312 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+???->???
+|  sleuthConfig
+???<-???
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2023-06-16T09:28:59.272-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 20596 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:28:59.277-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:28:59.355-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:28:59.356-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:29:00.407-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:29:00.505-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:29:01.609-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:29:01.628-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:29:01.629-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:29:01.783-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:29:01.784-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2426 ms
+2023-06-16T09:29:01.969-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:29:02.038-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:29:02.354-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:29:02.587-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54ea1799
+2023-06-16T09:29:02.596-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:29:02.646-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:29:03.674-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:29:03.692-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:29:03.715-05:00  WARN [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthConfig': Unsatisfied dependency expressed through method 'setTracer' parameter 0: No qualifying bean of type 'org.springframework.cloud.sleuth.Tracer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-16T09:29:03.725-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:29:03.733-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T09:29:03.750-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T09:29:03.754-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:29:03.775-05:00  INFO [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-16T09:29:03.824-05:00 ERROR [ms-alfa-arpis-arquetipo,,] 20596 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthConfig': Unsatisfied dependency expressed through method 'setTracer' parameter 0: No qualifying bean of type 'org.springframework.cloud.sleuth.Tracer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:817) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:769) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.4.jar:3.0.4]
+	at co.com.segurosalfa.msalfaarpisarquetipo.MsAlfaArpisArquetipoApplication.main(MsAlfaArpisArquetipoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.4.jar:3.0.4]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.sleuth.Tracer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1812) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1410) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:809) ~[spring-beans-6.0.6.jar:6.0.6]
+	... 25 common frames omitted
+
+2023-06-16T09:30:23.271-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 24996 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:30:23.276-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:30:23.346-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:30:23.347-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:30:24.339-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:30:24.438-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:30:25.391-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:30:25.405-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:30:25.406-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:30:25.508-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:30:25.509-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2161 ms
+2023-06-16T09:30:25.698-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:30:25.779-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:30:26.087-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:30:26.287-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31ef1890
+2023-06-16T09:30:26.290-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:30:26.337-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:30:27.424-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:30:27.451-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:30:27.715-05:00  WARN [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:30:29.920-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T09:30:29.981-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T09:30:29.999-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.394 seconds (process running for 8.179)
+2023-06-16T09:30:34.896-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T09:30:34.897-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T09:30:34.900-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-16T09:31:09.367-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T09:31:09.390-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:31:09.392-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-16T09:31:09.401-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:31:09.408-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T09:31:09.416-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T09:31:09.795-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 24996 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:31:09.797-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:31:10.261-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:31:10.284-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:31:10.491-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:31:10.492-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:31:10.492-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:31:10.550-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:31:10.551-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 748 ms
+2023-06-16T09:31:10.615-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:31:10.629-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-16T09:31:10.733-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6cb4b089
+2023-06-16T09:31:10.734-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-16T09:31:10.747-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:31:10.837-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:31:10.837-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:31:10.851-05:00  WARN [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthConfig': Unsatisfied dependency expressed through method 'setTracer' parameter 0: No qualifying bean of type 'org.springframework.cloud.sleuth.Tracer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-16T09:31:10.853-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:31:10.855-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-06-16T09:31:10.987-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-06-16T09:31:10.988-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:31:10.998-05:00  INFO [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-16T09:31:11.061-05:00 ERROR [ms-alfa-arpis-arquetipo,,] 24996 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthConfig': Unsatisfied dependency expressed through method 'setTracer' parameter 0: No qualifying bean of type 'org.springframework.cloud.sleuth.Tracer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:817) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:769) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.4.jar:3.0.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.4.jar:3.0.4]
+	at co.com.segurosalfa.msalfaarpisarquetipo.MsAlfaArpisArquetipoApplication.main(MsAlfaArpisArquetipoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.4.jar:3.0.4]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.sleuth.Tracer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1812) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1410) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:809) ~[spring-beans-6.0.6.jar:6.0.6]
+	... 25 common frames omitted
+
+2023-06-16T09:35:30.978-05:00  INFO [test-1,,] 25428 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 25428 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:35:30.981-05:00  INFO [test-1,,] 25428 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:35:31.062-05:00  INFO [test-1,,] 25428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:35:31.063-05:00  INFO [test-1,,] 25428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:35:32.030-05:00  INFO [test-1,,] 25428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:35:32.131-05:00  INFO [test-1,,] 25428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:35:33.162-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:35:33.177-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:35:33.178-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:35:33.305-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:35:33.307-05:00  INFO [test-1,,] 25428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2242 ms
+2023-06-16T09:35:33.506-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:35:33.584-05:00  INFO [test-1,,] 25428 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:35:33.916-05:00  INFO [test-1,,] 25428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:35:34.141-05:00  INFO [test-1,,] 25428 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@840326c
+2023-06-16T09:35:34.145-05:00  INFO [test-1,,] 25428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:35:34.193-05:00  INFO [test-1,,] 25428 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:35:35.248-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:35:35.263-05:00  INFO [test-1,,] 25428 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:35:35.553-05:00  WARN [test-1,,] 25428 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:35:37.734-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T09:35:37.779-05:00  INFO [test-1,,] 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T09:35:37.795-05:00  INFO [test-1,,] 25428 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.471 seconds (process running for 8.246)
+2023-06-16T09:35:43.971-05:00  INFO [test-1,,] 25428 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T09:35:43.974-05:00  INFO [test-1,,] 25428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T09:35:43.976-05:00  INFO [test-1,,] 25428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-16T09:36:27.524-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22500 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:36:27.527-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:36:27.598-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:36:27.600-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:36:28.533-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:36:28.622-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:36:29.752-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:36:29.768-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:36:29.769-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:36:29.889-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:36:29.891-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2289 ms
+2023-06-16T09:36:30.126-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:36:30.205-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:36:30.511-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:36:30.719-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e22774e
+2023-06-16T09:36:30.722-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:36:30.765-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:36:31.834-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:36:31.851-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:36:32.111-05:00  WARN [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:36:34.054-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T09:36:34.101-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T09:36:34.115-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.247 seconds (process running for 7.969)
+2023-06-16T09:36:39.197-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T09:36:39.198-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T09:36:39.201-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-16T09:37:15.536-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T09:37:15.561-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:37:15.564-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-16T09:37:15.584-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:37:15.591-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T09:37:15.619-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T09:37:16.087-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22500 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:37:16.090-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:37:16.588-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:37:16.613-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:37:16.858-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:37:16.861-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:37:16.862-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:37:16.931-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:37:16.933-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 835 ms
+2023-06-16T09:37:17.008-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:37:17.023-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-16T09:37:17.116-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3735fad3
+2023-06-16T09:37:17.117-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-16T09:37:17.130-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:37:17.233-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:37:17.235-05:00  INFO [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:37:17.340-05:00  WARN [ms-alfa-arpis-arquetipo,,] 22500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:58:13.917-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22112 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:58:13.921-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:58:13.983-05:00  INFO 22112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T09:58:13.984-05:00  INFO 22112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T09:58:15.037-05:00  INFO 22112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:58:15.121-05:00  INFO 22112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:58:16.005-05:00  INFO 22112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:58:16.020-05:00  INFO 22112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:58:16.021-05:00  INFO 22112 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:58:16.119-05:00  INFO 22112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:58:16.120-05:00  INFO 22112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2132 ms
+2023-06-16T09:58:16.299-05:00  INFO 22112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:58:16.371-05:00  INFO 22112 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T09:58:16.704-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T09:58:16.924-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b3129ae
+2023-06-16T09:58:16.927-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T09:58:16.969-05:00  INFO 22112 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:58:17.901-05:00  INFO 22112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:58:17.915-05:00  INFO 22112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:58:18.170-05:00  WARN 22112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:58:20.260-05:00  INFO 22112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T09:58:20.333-05:00  INFO 22112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T09:58:20.375-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 6.913 seconds (process running for 7.526)
+2023-06-16T09:58:28.695-05:00  INFO 22112 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T09:58:28.697-05:00  INFO 22112 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T09:58:28.699-05:00  INFO 22112 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-16T09:58:43.250-05:00  INFO 22112 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T09:58:43.278-05:00  INFO 22112 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T09:58:43.281-05:00  INFO 22112 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-16T09:58:43.292-05:00  INFO 22112 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:58:43.297-05:00  INFO 22112 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T09:58:43.308-05:00  INFO 22112 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T09:58:43.417-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22112 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T09:58:43.419-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T09:58:43.745-05:00  INFO 22112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T09:58:43.776-05:00  INFO 22112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-06-16T09:58:43.910-05:00  INFO 22112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T09:58:43.927-05:00  INFO 22112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T09:58:43.927-05:00  INFO 22112 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T09:58:43.973-05:00  INFO 22112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T09:58:43.973-05:00  INFO 22112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 549 ms
+2023-06-16T09:58:44.039-05:00  INFO 22112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T09:58:44.051-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-16T09:58:44.138-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5e5fe94
+2023-06-16T09:58:44.138-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-16T09:58:44.152-05:00  INFO 22112 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T09:58:44.219-05:00  INFO 22112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T09:58:44.220-05:00  INFO 22112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T09:58:44.314-05:00  WARN 22112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T09:58:46.005-05:00  INFO 22112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T09:58:46.049-05:00  INFO 22112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T09:58:46.072-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 2.707 seconds (process running for 33.222)
+2023-06-16T09:58:46.075-05:00  INFO 22112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T09:58:52.799-05:00  INFO 22112 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T09:58:52.800-05:00  INFO 22112 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T09:58:52.802-05:00  INFO 22112 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-16T10:00:18.878-05:00  INFO 22112 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-16T10:00:18.899-05:00  INFO 22112 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T10:00:18.900-05:00  INFO 22112 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-16T10:00:18.907-05:00  INFO 22112 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T10:00:18.908-05:00  INFO 22112 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-06-16T10:00:18.921-05:00  INFO 22112 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-06-16T10:00:19.061-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 22112 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T10:00:19.066-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T10:00:19.415-05:00  INFO 22112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T10:00:19.440-05:00  INFO 22112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2023-06-16T10:00:19.601-05:00  INFO 22112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T10:00:19.602-05:00  INFO 22112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T10:00:19.602-05:00  INFO 22112 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T10:00:19.649-05:00  INFO 22112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T10:00:19.649-05:00  INFO 22112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 578 ms
+2023-06-16T10:00:19.698-05:00  INFO 22112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T10:00:19.707-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-06-16T10:00:19.797-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@3bb7c8dc
+2023-06-16T10:00:19.814-05:00  INFO 22112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-06-16T10:00:19.832-05:00  INFO 22112 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T10:00:19.892-05:00  INFO 22112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T10:00:19.894-05:00  INFO 22112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T10:00:19.970-05:00  WARN 22112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T10:00:21.096-05:00  INFO 22112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T10:00:21.118-05:00  INFO 22112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T10:00:21.151-05:00  INFO 22112 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 2.181 seconds (process running for 128.302)
+2023-06-16T10:00:21.190-05:00  INFO 22112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T10:00:46.669-05:00  INFO 22112 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T10:00:46.670-05:00  INFO 22112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T10:00:46.671-05:00  INFO 22112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-16T10:02:11.961-05:00  INFO 14020 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 14020 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T10:02:11.966-05:00  INFO 14020 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T10:02:12.047-05:00  INFO 14020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T10:02:12.048-05:00  INFO 14020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T10:02:13.147-05:00  INFO 14020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T10:02:13.236-05:00  INFO 14020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2023-06-16T10:02:14.116-05:00  INFO 14020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T10:02:14.132-05:00  INFO 14020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T10:02:14.133-05:00  INFO 14020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T10:02:14.259-05:00  INFO 14020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T10:02:14.260-05:00  INFO 14020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2210 ms
+2023-06-16T10:02:14.465-05:00  INFO 14020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T10:02:14.537-05:00  INFO 14020 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T10:02:14.883-05:00  INFO 14020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T10:02:15.118-05:00  INFO 14020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e088ebb
+2023-06-16T10:02:15.122-05:00  INFO 14020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T10:02:15.161-05:00  INFO 14020 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T10:02:16.361-05:00  INFO 14020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T10:02:16.372-05:00  INFO 14020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T10:02:16.635-05:00  WARN 14020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T10:02:18.465-05:00  INFO 14020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T10:02:18.517-05:00  INFO 14020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T10:02:18.533-05:00  INFO 14020 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 7.317 seconds (process running for 8.087)
+2023-06-16T10:02:46.547-05:00  INFO 14020 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T10:02:46.548-05:00  INFO 14020 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T10:02:46.550-05:00  INFO 14020 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-16T11:32:41.521-05:00  INFO 25008 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 25008 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T11:32:41.525-05:00  INFO 25008 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T11:32:41.593-05:00  INFO 25008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T11:32:41.594-05:00  INFO 25008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T11:32:43.109-05:00  INFO 25008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T11:32:43.217-05:00  INFO 25008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2023-06-16T11:32:44.162-05:00  INFO 25008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T11:32:44.180-05:00  INFO 25008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T11:32:44.181-05:00  INFO 25008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T11:32:44.310-05:00  INFO 25008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T11:32:44.312-05:00  INFO 25008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2716 ms
+2023-06-16T11:32:44.851-05:00  INFO 25008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T11:32:44.941-05:00  INFO 25008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T11:32:45.282-05:00  INFO 25008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T11:32:45.606-05:00  INFO 25008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69d6e35a
+2023-06-16T11:32:45.611-05:00  INFO 25008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T11:32:45.667-05:00  INFO 25008 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T11:32:47.448-05:00  INFO 25008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T11:32:47.461-05:00  INFO 25008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T11:32:47.754-05:00  WARN 25008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T11:32:50.186-05:00  INFO 25008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T11:32:50.204-05:00  INFO 25008 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-16T11:32:50.323-05:00  INFO 25008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T11:32:50.355-05:00  INFO 25008 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 9.304 seconds (process running for 10.059)
+2023-06-16T11:33:38.535-05:00  INFO 25008 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T11:33:38.538-05:00  INFO 25008 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T11:33:38.542-05:00  INFO 25008 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-06-16T11:47:36.635-05:00  INFO 25008 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-06-16T11:47:36.660-05:00  INFO 25008 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T11:47:36.662-05:00  INFO 25008 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-16T11:47:36.668-05:00  WARN 25008 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@71e8eb30}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ app//zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ app//zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ app//zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-06-16T11:47:36.679-05:00  INFO 25008 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T11:47:36.685-05:00  INFO 25008 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T11:47:36.697-05:00  INFO 25008 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-16T11:47:37.423-05:00  INFO 25008 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 25008 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T11:47:37.426-05:00  INFO 25008 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T11:47:38.117-05:00  INFO 25008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T11:47:38.149-05:00  INFO 25008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2023-06-16T11:47:38.409-05:00  INFO 25008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T11:47:38.411-05:00  INFO 25008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T11:47:38.411-05:00  INFO 25008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T11:47:38.480-05:00  INFO 25008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T11:47:38.481-05:00  INFO 25008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2023-06-16T11:47:38.637-05:00  INFO 25008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T11:47:38.647-05:00  INFO 25008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-16T11:47:38.750-05:00  INFO 25008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3275958c
+2023-06-16T11:47:38.750-05:00  INFO 25008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-16T11:47:38.760-05:00  INFO 25008 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T11:47:38.820-05:00  INFO 25008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T11:47:38.821-05:00  INFO 25008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T11:47:38.928-05:00  WARN 25008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T11:47:40.948-05:00  INFO 25008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T11:47:40.957-05:00  INFO 25008 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-16T11:47:40.999-05:00  INFO 25008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T11:47:41.010-05:00  INFO 25008 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 3.626 seconds (process running for 900.715)
+2023-06-16T11:47:41.019-05:00  INFO 25008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-16T11:56:18.106-05:00  INFO 24336 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 24336 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T11:56:18.110-05:00  INFO 24336 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T11:56:18.207-05:00  INFO 24336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T11:56:18.208-05:00  INFO 24336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T11:56:19.601-05:00  INFO 24336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T11:56:19.695-05:00  INFO 24336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-06-16T11:56:20.636-05:00  INFO 24336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T11:56:20.665-05:00  INFO 24336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T11:56:20.667-05:00  INFO 24336 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T11:56:20.863-05:00  INFO 24336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T11:56:20.865-05:00  INFO 24336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2654 ms
+2023-06-16T11:56:21.416-05:00  INFO 24336 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T11:56:21.493-05:00  INFO 24336 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T11:56:21.783-05:00  INFO 24336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T11:56:22.025-05:00  INFO 24336 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6db72b61
+2023-06-16T11:56:22.028-05:00  INFO 24336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T11:56:22.071-05:00  INFO 24336 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T11:56:23.169-05:00  INFO 24336 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T11:56:23.191-05:00  INFO 24336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T11:56:23.456-05:00  WARN 24336 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T11:56:25.938-05:00  INFO 24336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T11:56:25.971-05:00  INFO 24336 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-16T11:56:26.080-05:00  INFO 24336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T11:56:26.119-05:00  INFO 24336 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 8.47 seconds (process running for 9.145)
+2023-06-16T11:56:32.899-05:00  INFO 24336 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T11:56:32.900-05:00  INFO 24336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T11:56:32.903-05:00  INFO 24336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-16T12:03:32.342-05:00  INFO 20192 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Starting MsAlfaArpisArquetipoApplication using Java 17.0.6 with PID 20192 (C:\ProyectosSpring\ms-alfa-arpis-arquetipo\target\classes started by pipo0 in C:\ProyectosSpring\ms-alfa-arpis-arquetipo)
+2023-06-16T12:03:32.347-05:00  INFO 20192 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T12:03:32.425-05:00  INFO 20192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-16T12:03:32.426-05:00  INFO 20192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-16T12:03:33.870-05:00  INFO 20192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T12:03:33.971-05:00  INFO 20192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2023-06-16T12:03:34.854-05:00  INFO 20192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T12:03:34.868-05:00  INFO 20192 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T12:03:34.869-05:00  INFO 20192 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-16T12:03:34.977-05:00  INFO 20192 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T12:03:34.978-05:00  INFO 20192 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2549 ms
+2023-06-16T12:03:35.482-05:00  INFO 20192 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T12:03:35.584-05:00  INFO 20192 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-16T12:03:35.901-05:00  INFO 20192 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T12:03:36.135-05:00  INFO 20192 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76aa14dc
+2023-06-16T12:03:36.138-05:00  INFO 20192 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T12:03:36.177-05:00  INFO 20192 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-16T12:03:37.381-05:00  INFO 20192 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T12:03:37.398-05:00  INFO 20192 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T12:03:37.776-05:00  WARN 20192 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T12:03:39.910-05:00  INFO 20192 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-16T12:03:39.921-05:00  INFO 20192 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-16T12:03:40.027-05:00  INFO 20192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T12:03:40.049-05:00  INFO 20192 --- [restartedMain] c.c.s.m.MsAlfaArpisArquetipoApplication  : Started MsAlfaArpisArquetipoApplication in 8.161 seconds (process running for 8.962)
+2023-06-16T12:03:46.099-05:00  INFO 20192 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-16T12:03:46.100-05:00  INFO 20192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-16T12:03:46.102-05:00  INFO 20192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
